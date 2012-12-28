@@ -26,7 +26,7 @@
 
 	REVISIONS:
 
-	2012-12-26
+	2012-12-27
 		- Initial Release
 */
 
@@ -67,7 +67,7 @@
 		button.id = tag + username;
 		button.href = "http://www.shacknews.com/user/" + tag + "/posts";
 		button.className = "namechange_button";
-		button.setAttribute('style', 'color: #7b2 !important; font-weight: normal; padding: 0 0.15em;');
+		button.setAttribute('style', 'color: #080 !important; font-weight: normal; padding: 0 0.15em;');
 		button.appendChild(document.createTextNode(tag));
 		
 		var span = document.createElement("span");
@@ -124,10 +124,37 @@
 				var userName = spanUser.firstChild.textContent;
 				var oldUserName = "";
 				// go through all of the names we know of and set what it should be
-				if (userName == "Godhatesfatpeople")
-				{
-					oldUserName = "not work safe";
-				}
+				if (userName == "_jon") oldUserName = "poopsex_";
+				else if (userName == "@gamedreamer") oldUserName = "Legolas5";
+				else if (userName == "(mojo)") oldUserName = "mojoald";
+				else if (userName == "Alice O'Connor") oldUserName = "A Sponge";
+				else if (userName == "Bamtan") oldUserName = "hardfl1p";
+				else if (userName == "brickmatt") oldUserName = "lazarusb";
+				else if (userName == "boring gegtik") oldUserName = "gegtik";
+				else if (userName == "Chris Remo") oldUserName = "remo";
+				else if (userName == "Dave-A") oldUserName = "thaPerfectDrug";
+				else if (userName == "degenerate") oldUserName = "dg3nr8";
+				else if (userName == "deject") oldUserName = "MrFunky3000";
+				else if (userName == "devnullgt") oldUserName = "darklox";
+				else if (userName == "dignan") oldUserName = "zagzig32";
+				else if (userName == "dougb") oldUserName = "mayo";
+				else if (userName == "Druuge") oldUserName = "icon_of_syn";
+				else if (userName == "edgewise") oldUserName = "futtbucker";
+				else if (userName == "GameDreamer") oldUserName = "@gamedreamer";
+				else if (userName == "Hagbard") oldUserName = "romulan";
+				else if (userName == "helvetica") oldUserName = "zerologik";
+				else if (userName == "kgargonmagrix79") oldUserName = "dougb";
+				else if (userName == "kgargs") oldUserName = "kgargonmagrix79";
+				else if (userName == "MrBlarg") oldUserName = "smegmar";
+				else if (userName == "My Documents") oldUserName = "karen sympathy";
+				else if (userName == "Nick Breckon") oldUserName = "Ratsofatsorat";
+				else if (userName == "ninjase") oldUserName = "sexninja!!!!";
+				else if (userName == "pandastrong") oldUserName = "emocore";
+				else if (userName == "R@zzle") oldUserName = "kpxkrnjc";
+				else if (userName == "randomposter") oldUserName = "thewriter";
+				else if (userName == "Super Sparker") oldUserName = "MuaaSan";
+				else if (userName == "theghostofsmdever") oldUserName = "smdever";
+				else if (userName == "thewriter") oldUserName = "rand04";
 
 				if (oldUserName != "")
 				{
